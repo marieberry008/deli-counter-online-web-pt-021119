@@ -1,6 +1,5 @@
 katz_deli = ["Moshe", "Fayge", "Rivki"]
 
-
 def line(array) # this was the one I figured out
   if array.length >= 1
     nuarray = []
@@ -31,8 +30,6 @@ line_simple(katz_deli)
 #[:foo, :bar, :baz].each.with_index(1) do |value, index|
 #    puts "#{index}: #{value}"
 #end
-
-
 
 def take_a_number(line, new_person)
   line.push(new_person) # could say: "line << new_person"
